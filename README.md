@@ -29,14 +29,10 @@ class Student (models.Model):
     age=models.IntegerField()
     email=models.EmailField()
 class StudentAdmin(admin.ModelAdmin):
-    list_display=('referencenumber','name','age','email')```
-
-
+    list_display=('referencenumber','name','age','email')
+```
 ## OUTPUT
 ![san](https://user-images.githubusercontent.com/121998012/230138169-9175fee7-709c-4db5-b1fb-ff94fe7b8f95.jpg)
-
-
-
 
 ## RESULT
 Thus the project is developed to have student information database.
